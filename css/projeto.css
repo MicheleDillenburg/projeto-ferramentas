@@ -1,0 +1,175 @@
+.banner {
+    padding: 0!important;
+    height: 35rem;
+}
+
+.bannerimg {
+    width: 100%;
+    height: 100%;
+}
+
+.opcoes {
+    height: 20rem;
+
+}
+
+.promo {
+    height: 27rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.produtos {
+    height: 32rem;
+    padding-top: 2rem;
+
+ 
+}
+
+.banner2 {
+    height: 25rem;
+    padding: 0!important;
+}
+
+.produtos2 {
+    height: 30rem;
+}
+
+.banner3 {
+    height: 15rem;
+}
+
+.informacoes {
+        padding: 2rem;
+        height: 25rem;
+}
+
+.final {
+    height: 3rem;
+}
+
+.box-icones-grandes {
+    border-style: solid;
+    border-width: 1px;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.box-icones-grandes:hover {
+    color: white;
+    background: #ebeb1e;
+}
+
+.box-icones-grandes p {
+    font-size: 1.5rem;
+}
+
+.promoimagem-box {
+    position: relative;
+}
+
+.promoimagem {
+    width: 100%;
+    height: 23rem;
+}
+
+.promoimagem-sobreposicao {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.promoimagem-sobreposicao > p {
+    width: 75%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.promoimagem-sobreposicao > h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.promoimagembotao {
+    width: 6rem;
+    height: 2rem;
+    background: goldenrod;
+    color:white;
+    border: 0;
+    border-radius: 10%;
+}
+
+.produtosimagens {
+    width: 100%;
+    height: 20rem;
+}
+
+.textoprodutos > p {
+    font-size: 1.2rem;
+}
+
+.textoprodutos > span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.banner2img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner3img {
+    width: 100%;
+    height: 15rem;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+}
+
+.botoes button {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+    border: 0;
+    background: goldenrod;
+    font-size: 2rem;
+    color:white;
+}
+
+.iconesiniciais {
+    background: goldenrod;
+    padding: 0.5rem 1rem;
+    margin-left: 0.7rem;
+    border-radius: 20%;
+    border: 0;
+    color: white;
+}
+
+.iconesiniciais.lupa {
+    background: transparent;
+    color: goldenrod;
+}
+
+.iconesiniciais.valor {
+    border: 1px solid goldenrod;
+    color: goldenrod;
+
+}
