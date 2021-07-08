@@ -1,11 +1,62 @@
 .banner {
     padding: 0!important;
     height: 35rem;
+    position: relative;
 }
 
 .bannerimg {
     width: 100%;
     height: 100%;
+}
+
+.bannerimagem-sobreposicao {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerimagem-sobreposicao > h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    color: white;
+}
+
+.bannerimagem-sobreposicao > p {
+    font-size: 2rem;
+    color: white;
+}
+
+.bannerimagem-sobreposicao > button {
+    width: 11rem;
+    height: 4.5rem;
+    background: goldenrod;
+    color:white;
+    border: 0;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.quadradinhos {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quadradinhos > .quadradinho {
+    width: 1rem;
+    height: 1rem;
+    background: black;
+    margin-left: 0.5rem;
+
 }
 
 .opcoes {
@@ -30,6 +81,7 @@
 .banner2 {
     height: 25rem;
     padding: 0!important;
+    position: relative;
 }
 
 .produtos2 {
@@ -116,7 +168,30 @@
 .produtosimagens {
     width: 100%;
     height: 20rem;
+    position: relative;
 }
+
+.produtosimagensicons {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.produtosimagensicons > button {
+    margin-top: 0.5rem;
+    background: goldenrod;
+    color:white;
+    border: 0;
+    border-radius: 10%;
+}
+
+.produtosimagens > img {
+    width: 100%;
+    height: 20rem;
+}
+
 
 .textoprodutos > p {
     font-size: 1.2rem;
@@ -131,6 +206,41 @@
 .banner2img {
     width: 100%;
     height: 100%;
+}
+
+.banner2imagem-sobreposicao {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner2imagem-sobreposicao > h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.banner2imagem-sobreposicao > p {
+    font-size: 1.2rem;
+    width: 80%;
+    left: 80%;
+}
+
+.banner2imagem-sobreposicao > button {
+    width: 11rem;
+    height: 4.5rem;
+    background: goldenrod;
+    color:white;
+    border: 0;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 1.2rem;
+
 }
 
 .banner3img {
