@@ -59,6 +59,10 @@
 
 }
 
+.quadradinhos > .quadradinho.atual {
+    background: rgb(230, 226, 19);
+}
+
 .opcoes {
     height: 20rem;
 
@@ -253,7 +257,7 @@
     flex-direction: row;
 }
 
-.botoes button {
+.botoes a {
     width: 4rem;
     height: 4rem;
     margin-right: 1rem;
@@ -262,6 +266,9 @@
     background: goldenrod;
     font-size: 2rem;
     color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .iconesiniciais {
@@ -282,4 +289,37 @@
     border: 1px solid goldenrod;
     color: goldenrod;
 
+}
+
+.menu {
+    left: 0;
+    top: 50px;
+    right: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    height: 120px;
+    z-index: 999;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    align-items: center;
+
+}
+
+.menu.fixadoaotopo {
+    background: black;
+    position: fixed;
+    top: 0;
+    height: 60px;
+}
+
+.menu > div {
+    display: flex;
+    list-style: none;
+
+}
+
+.menu > div > li {
+    padding: 20px;
 }
