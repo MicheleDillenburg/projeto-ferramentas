@@ -320,6 +320,8 @@
 
 }
 
-.menu > div > li {
+.menu > div > a {
     padding: 20px;
+    color: white;
+    text-decoration: none;
 }
